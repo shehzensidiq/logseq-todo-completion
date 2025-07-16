@@ -1,0 +1,22 @@
+{
+  "name": "logseq-todo-completion-marker",
+  "version": "1.0.0",
+  "description": "Automatically marks completed tasks with formatted date and #Done tag",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "mkdir -p dist && cp src/index.js dist/index.js && cp logo.jpg dist/logo.jpg"
+  },
+  "keywords": [
+    "logseq",
+    "todo",
+    "productivity"
+  ],
+  "author": "M Shehzen",
+  "license": "MIT",
+  "dependencies": {
+    "@logseq/libs": "^0.0.7"
+  },
+  "logseq": {
+    "id": "_1e5fx8nce"
+  }
+}
